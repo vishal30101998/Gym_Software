@@ -1,0 +1,164 @@
+@charset "ISO-8859-1";
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom right, #ff9800, #e91e63);
+    
+   /* background: linear-gradient(to bottom, #4169E1, #000080);*/
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh; /* Adjust to fit your layout */
+    border: 2px solid #333; /* Border style */
+    margin: 240px; /* Margin to decrease the length of border */
+    border: 2px dashed #333; /* Dashed border with color #333 */
+     
+     background-image: linear-gradient(to bottom right, #2ecc71, #f1c40f);
+     
+}
+
+a:hover {
+    font-size: 18px; 
+    background-color: #f0f0f0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    color: red;
+} 
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: yellow;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+     transition: color 0.3s ease;
+     font-weight: bold;
+    text-transform: uppercase;
+}
+a:active {
+    color: red;
+}
+a:visited {
+    color: black ;
+}
+
+h1,h2 {
+    font-size: 24px; 
+    color: #333; 
+    text-transform: uppercase; 
+    font-weight: bold;
+     margin-bottom: 20px;
+     background-color: #e8f5e9; /* Add background color */
+    padding: 5px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+     font-family: Arial, sans-serif;
+}
+p {
+    font-size: 16px; /* Adjust font size */
+    color: #333; /* Text color */
+    line-height: 1.5; /* Adjust line height for better readability */
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    background-color: #ffe0b2; /* Add background color */
+    padding: 10px; /* Add padding for better readability */
+    border: 1px solid #ccc; /* Add a border around the paragraph */
+    padding: 10px; /* Add padding for better appearance */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+    padding: 10px; /* Add padding for better appearance */
+     margin-bottom: 20px;
+}
+
+
+
+.centered-div {
+    /* Your styles for the centered div */
+
+
+    
+    
+}
+/* Label styles */
+label {
+  display: block; /* Display labels as blocks */
+  font-size: 16px;
+  margin-bottom: 5px; /* Add some spacing between labels */
+}
+
+/* Button styles */
+button {
+  padding: 10px 20px; /* Add padding to the button */
+  font-size: 16px;
+  border: none; /* Remove default button border */
+  border-radius: 5px; /* Add some rounded corners */
+  background-color: #943738; /* Set button background color */
+  color: #ffffff; /* Set text color to white */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker background color on hover */
+}
+/* Input field styles */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+  padding: 10px; /* Add padding to the input fields */
+  font-size: 16px; /* Set font size */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Add rounded corners */
+  box-sizing: border-box; /* Ensure that padding and border are included in the element's total width and height */
+  width: 100%; /* Make input fields take up full width */
+}
+
+/* Styling for focused input fields */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border-color: #007bff; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Placeholder styles */
+input::placeholder,
+textarea::placeholder {
+  color: #aaa; /* Set placeholder text color */
+}
+
+/* Disable resizing of textarea */
+textarea {
+  resize: none;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+  margin-bottom: 10px; /* Adjust the value as needed */
+}
+.container {
+  padding-bottom: 10px; /* Adjust the value as needed */
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adjust the value as needed */
+}
+
+
+
+    
+

@@ -1,0 +1,64 @@
+@charset "ISO-8859-1";
+
+/*table {
+  width: 100%; 
+  border-collapse: collapse; 
+}
+
+
+th {
+  background-color: #f2f2f2; 
+  border: 1px solid #dddddd; 
+  padding: 8px; 
+  text-align: left; 
+}
+
+
+td {
+  border: 1px solid #dddddd; 
+  padding: 8px; 
+   color: #333333;
+   
+}
+
+
+tr:nth-child(even) {
+  background-color: #f9f9f9; 
+}
+
+td {
+  border: 1px solid #dddddd; 
+}*/
+
+/* CSS for table */
+/* CSS for table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px; /* Add rounded corners to the table */
+  overflow: hidden; /* Hide overflowing content */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+}
+
+/* CSS for table headers */
+th {
+  background-color: #FF6F61; /* Coral red background color */
+  color: #FFFFFF; /* White text color */
+  padding: 12px;
+  text-align: left;
+}
+
+/* CSS for table data cells */
+td {
+  border: 1px solid #dddddd; /* Light gray border */
+  padding: 8px;
+}
+
+/* CSS for alternating row colors */
+tr:nth-child(even) {
+  background-color: #FFE66D; /* Light yellow background color for even rows */
+}
+
+
+
+
